@@ -1,4 +1,4 @@
-# Projeto do Curso de Otimização de Performance Web do Alura
+# Performance no Front End
 
 Clone o projeto e faça `npm install` para instalar as dependências.
 

@@ -1,0 +1,9 @@
+web:
+  container_name: performance_no_front
+  image: nginx
+  volumes:
+   - ./site:/usr/share/nginx/html
+   - ./workshop-performance.conf:/etc/nginx/conf.d/default.conf
+  ports:
+   - "3030:80"
+  command: /bin/bash -c "nginx -g 'daemon off;'"
